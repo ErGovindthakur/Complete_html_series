@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links and images in html</title>
+</head>
+<body>
+    <P>All about anchor tag use <mark>a:</mark></P>
+    <a href="http://google.com" target="_blank"></a>
+    <a href="mailto:gk7472157@mail.com">Mail us</a>
+    <a href="tel:+917992478931">Call-us</a>
+    <p>All about image tag</p>
+<img src="./Images" alt="No image" srcset="">
+<img src="./Images" alt="No image" srcset="">
+<picture>
+    <source media="(min-width:600px)" srcset="Range-Rover2.avif">
+    <source media="(min-width:450px)" srcset="Range-Rover.avif" alt="no ing">
+    <img src="./Range-Rover.avif" alt="">
+</picture>
+<img src="./Range-Rover2.avif" alt="No image" srcset="">
+<br />
+<!-- An image map generator -->
+<img src="Range-Rover2.avif" usemap="#image-map">
+
+<map name="image-map">
+    <area onclick="one()" target="" alt="" title="" href="" coords="125,321,51" shape="circle">
+    <area onclick="two()" target="" alt="" title="" href="" coords="425,323,497,350" shape="rect">
+</map>
+<br />
+<script>
+    function one(){
+        alert(" clicked on Right wheel ");
+    }
+    function two(){
+        alert(" clicked on Left wheel ");
+    }
+    
+
+</script>
+<!-- Short-cuts to duplication -->
+<kbd>Shift + Alt + DownArrow</kbd>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All aobut Table in html</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            /* color: white; */
+        }
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: #aa9c9c;
+}
+#mark{
+    width: 99%;
+    border-collapse: collapse;
+    text-align: center;
+}
+ #mark th,td{
+    border: 1px solid green;
+    padding: 9px;
+}
+#mark tr:nth-child(odd){
+    background-color: hotpink;
+}
+#mark tr:nth-child(even){
+    background-color: white;
+}
+    </style>
+</head>
+<body>
+   <h3>
+    All about table in html
+   </h3>
+   <table>
+    <tr>
+        <th>Country</th>
+        <th>Code</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>IN</td>
+        <td>india@google.com</td>
+    </tr>
+    <tr>
+        <td>United state of America</td>
+        <td>USA</td>
+        <td>USA@google.com</td>
+    </tr>
+    <tr>
+        <td>Japan</td>
+        <td>JN</td>
+        <td>JPN@google.com</td>
+    </tr>
+    <tr>
+        <td>Africa</td>
+        <td>Af</td>
+        <td>af@google.com</td>
+    </tr>
+   </table>
+   <h3>Another code to demonstrate table</h3>
+   <table id="mark">
+    <tr>
+        <th>Name
+            <td>Govind</td>
+            <td>Prabhjot</td>
+        </th>
+    </tr>
+    <tr>
+        <th>Address
+            <td>Bihar</td>
+            <td>Punjab</td>
+        </th>
+    </tr>
+    <tr>
+        <th>Std
+            <td>Engineering</td>
+            <td>Engineering</td>
+        </th>
+    </tr>
+    <tr>
+        <th>Roll-no
+            <td>1122748</td>
+            <td>11222101</td>
+        </th>
+    </tr>
+   </table>
+</body>
+</html>
